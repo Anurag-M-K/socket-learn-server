@@ -9,7 +9,7 @@ app.use(cors());
 
 const io = new Server(server, {
   cors: {
-    origin: "http://127.0.0.1:5173",
+    origin: "https://joyful-moonbeam-f2f07c.netlify.app/",
     methods: ["GET", "POST"],
   },
 });
